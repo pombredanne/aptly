@@ -64,7 +64,7 @@ If you would like to use nightly builds (unstable), please use following reposit
 
 Binary executables (depends almost only on libc) are available for download from `Bintray <http://dl.bintray.com/smira/aptly/>`_.
 
-If you have Go environment set up, you can build aptly from source by running (go 1.4+ required)::
+If you have Go environment set up, you can build aptly from source by running (go 1.6+ required)::
 
     go get -u github.com/mattn/gom
     mkdir -p $GOPATH/src/github.com/smira/aptly
@@ -98,6 +98,8 @@ With configuration management systems:
     (Heavy Water Operations, LLC)
 -   `Puppet module <https://github.com/alphagov/puppet-aptly>`_ by
     Government Digital Services
+-   `Puppet module <https://github.com/tubemogul/puppet-aptly>`_ by
+    TubeMogul
 -   `SaltStack Formula <https://github.com/saltstack-formulas/aptly-formula>`_ by
     Forrest Alvarez and Brian Jackson
 -   `Ansible role <https://github.com/aioue/ansible-role-aptly>`_ by Tom Paine
@@ -105,6 +107,7 @@ With configuration management systems:
 CLI for aptly API:
 
 -   `Ruby aptly CLI/library <https://github.com/sepulworld/aptly_cli>`_ by Zane Williamson
+-   `Python aptly CLI (good for CI) <https://github.com/TimSusa/aptly_api_cli>`_ by Tim Susa
 
 Scala sbt:
 
